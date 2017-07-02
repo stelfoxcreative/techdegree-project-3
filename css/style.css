@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+input,
+select,
+textarea {
+  color: #b5b9bd;
+  background-color: #eff0f1;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 14px 20px;
+  height: 44px;
+  line-height: 1;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  float: left;
+  clear: both;
+}
+
+p {
+  clear: both;
+  margin: 1.5rem 0;
+  color: #617383;
+  font-weight: 300;
+}
+
+textarea {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #08547f;
+  transition: .75s;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-style: italic;
+  font-weight: 300;
+  color: #b5b9bd;
+  text-align: right;
+  padding-right: 4px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-style: italic;
+  font-weight: 300;
+  color: #b5b9bd;
+  text-align: right;
+  padding-right: 4px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-style: italic;
+  font-weight: 300;
+  color: #b5b9bd;
+  text-align: right;
+  padding-right: 4px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-style: italic;
+  font-weight: 300;
+  color: #b5b9bd;
+  text-align: right;
+  padding-right: 4px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  background-color: #4ebbb5;
+  border: 2px solid #fff;
+  text-align: center;
+  height: 60px;
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"]
+{
+  width: 30px;
+  height: 42px;
+}
+
+label {
+  color: #617383;
+  display: inline-block;
+  margin: 12px 0;
+  float: left;
+  font-weight: 300;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 0;
+  margin: 0 20px;
+  border-bottom: 4px solid #2d3944;
+}
+
+header p {
+  color: #a4a9ae;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+main {
+  margin: 4px 20px 40px 20px;
+  border-top: 2px solid #2d3944;
+}
+
+footer {
+  font-style: italic;
+  padding: 10px 20px 20px 20px;
+  background-color: #2d3944;
+}
+
+footer p {
+  color: #fff;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  width: 100%;
+  color: #fff;
+  background-color: #2d3944;
+  margin: 0;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#zip {
+  width: 50%;
+}
+
+#contact-info {
+  border-bottom: 2px solid #2d3944;
+  padding-bottom: 30px;
+  margin: 20px 0;
+}
+
+#newsletter-info p {
+  margin: 0;
+  padding: 20px 0 10px 0;
+  clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+
+  header {
+    max-width: 768px;
+    margin: 4px auto 0;
+  }
+
+  main {
+    max-width: 768px;
+    margin: 4px auto 40px;
+  }
+
+  #contact-info label {
+    width: 20%;
+    clear: left;
+    line-height: 36px;
+  }
+
+  #contact-info input,
+  #contact-info select {
+    width: 80%;
+    float: left;
+    clear: right;
+    margin: 10px 0;
+  }
+
+  #contact-info #zip {
+    width: 20%;
+  }
+
+  #newsletter-info label {
+    width: 50%;
+  }
+
+}
