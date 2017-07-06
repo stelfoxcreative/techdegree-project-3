@@ -169,6 +169,10 @@ legend {
   clear: both;
 }
 
+.clear-left {
+  clear: left;
+}
+
 @media screen and (min-width: 768px) {
 
   header {
@@ -197,10 +201,6 @@ legend {
 
   #contact-info #zip {
     width: 20%;
-  }
-
-  #newsletter-info label {
-    width: 50%;
   }
 
 }
